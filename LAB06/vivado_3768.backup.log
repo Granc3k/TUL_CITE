@@ -1,0 +1,1563 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 24 09:07:01 2023
+# Process ID: 3768
+# Current directory: D:/Janovec/LAB06
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8988 D:\Janovec\LAB06\LAB06.xpr
+# Log file: D:/Janovec/LAB06/vivado.log
+# Journal file: D:/Janovec/LAB06\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Janovec/LAB06/LAB06.xpr
+INFO: [Project 1-313] Project file moved from 'E:/TransparenceCloud/CITE2022/LAB06_simulation/LAB06' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/marti/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1020.152 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Mon Apr 24 09:27:56 2023] Launched synth_1...
+Run output will be captured here: D:/Janovec/LAB06/LAB06.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: multiplexor
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+3 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.090 ; gain = 277.938
+INFO: [Common 17-344] 'synth_design' was cancelled
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: multiplexor
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_M_AXI [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:14]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_M_AXIS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:132]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_S_AXI [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:164]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_NOC_S_AXIS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:274]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_AXIS128 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:306]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_AXIS32 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:326]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_AXIS64 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:346]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_M_EVENTS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:366]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_AXIS128 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:376]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_AXIS32 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:396]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_AXIS64 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:416]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AIE_PL_S_EVENTS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:436]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AMS_ADC [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:446]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AMS_DAC [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:460]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:474]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2B1 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:486]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2B1L [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:498]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND2B2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:511]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:522]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3B1 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:534]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3B2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:546]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND3B3 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:558]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:570]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B1 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:583]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:596]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B3 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:609]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND4B4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:622]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:635]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B1 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:649]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:663]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B3 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:677]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:691]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AND5B5 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:705]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module AUTOBUF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:719]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BIBUF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:730]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BITSLICE_CONTROL [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:740]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCANE2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:884]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN3 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:914]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN3A [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:933]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_SPARTAN6 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:954]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:974]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX5 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:991]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BSCAN_VIRTEX6 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1008]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1029]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFCE_LEAF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1039]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFCE_ROW [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1054]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFDIV_LEAF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1069]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1093]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE_1 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1110]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCE_DIV [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1122]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGCTRL [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1144]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1183]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_1 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1198]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_CTRL [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1211]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGMUX_VIRTEX4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1225]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFGP [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1239]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_FABRIC [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1249]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_GT [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1259]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_GT_SYNC [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1281]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_LB [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1297]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFG_PS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1307]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFH [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1319]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFHCE [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1329]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFIO [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1344]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFIO2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1354]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFIODQS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1372]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFMR [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1385]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFMRCE [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1395]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module BUFR [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1410]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTUREE2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1426]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_SPARTAN3 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1437]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_SPARTAN3A [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1447]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1457]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX5 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1467]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CAPTURE_VIRTEX6 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1477]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CARRY4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1487]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CARRY8 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1505]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CFGLUT5 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1524]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CLKDLL [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1554]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CLKDLLE [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1584]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CLKDLLHF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1616]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CMAC [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1640]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CMACE4 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:2450]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:3366]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM_EXT [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:6592]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module CPM_MAIN [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:7364]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCIRESET [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10604]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10614]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_ADV [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10660]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_BASE [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10731]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_PS [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10779]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DCM_SP [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10837]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DDRMC [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:10882]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DDRMC_RIU [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:11936]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DNA_PORT [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:11984]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DNA_PORTE2 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:11998]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DPHY_DIFFINBUF [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12015]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DPLL [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12037]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module DSP48 [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:12121]
+INFO: [Common 17-14] Message 'Synth 8-2490' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1409.648 ; gain = 89.418
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'multiplexor' [D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'multiplexor' (1#1) [D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1432.770 ; gain = 112.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1442.031 ; gain = 121.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1442.031 ; gain = 121.801
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1442.031 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1474.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 1479.684 ; gain = 159.453
+6 Infos, 32 Warnings, 132 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 1479.684 ; gain = 159.453
+set_property top decoder [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Apr 24 09:31:04 2023] Launched synth_1...
+Run output will be captured here: D:/Janovec/LAB06/LAB06.runs/synth_1/runme.log
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1565.953 ; gain = 46.402
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'decoder' [D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'decoder' (1#1) [D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1594.215 ; gain = 74.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1617.074 ; gain = 97.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1617.074 ; gain = 97.523
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1621.902 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1711.660 ; gain = 192.109
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1734.242 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Janovec/LAB06/LAB06.srcs/constrs_1/imports/CITE2022/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+current_design rtl_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplexor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj multiplexor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplexor'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplexor_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.multiplexor [multiplexor_default]
+Compiling architecture testbench of entity xil_defaultlib.multiplexor_tb
+Built simulation snapshot multiplexor_tb_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/xsim.dir/multiplexor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/xsim.dir/multiplexor_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 24 09:38:08 2023. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 24 09:38:08 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2583.988 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplexor_tb_behav -key {Behavioral:sim_1:Functional:multiplexor_tb} -tclbatch {multiplexor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source multiplexor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplexor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 2583.988 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2583.988 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2583.988 ; gain = 0.000
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2583.988 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplexor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj multiplexor_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2583.988 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 90 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 90 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 90 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 90 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 90 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 150 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 150 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 150 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 150 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 150 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 160 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 160 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 160 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 160 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 170 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 170 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 170 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 170 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 170 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 180 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 180 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 180 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 180 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 190 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 190 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 190 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 190 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 190 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 200 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 200 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 200 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 200 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 210 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 210 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 210 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 210 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 210 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 220 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 220 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 220 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 220 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 230 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 230 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 230 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 230 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 230 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 240 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 240 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 240 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 240 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 250 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 250 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 250 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 250 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 250 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 260 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 260 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 260 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 260 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 270 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 270 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 270 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 270 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 270 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 280 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 280 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 280 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 280 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 290 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 290 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 290 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 290 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 290 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 300 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 300 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 300 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 300 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 310 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 310 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 310 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 310 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 310 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 320 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplexor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj multiplexor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplexor_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.multiplexor [multiplexor_default]
+Compiling architecture testbench of entity xil_defaultlib.multiplexor_tb
+Built simulation snapshot multiplexor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplexor_tb_behav -key {Behavioral:sim_1:Functional:multiplexor_tb} -tclbatch {multiplexor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source multiplexor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplexor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2583.988 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 30
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 31
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 32
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 21
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 33
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 34
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 21
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 35
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 36
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 23
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 37
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 38
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 23
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 39
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 40
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 41
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 42
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+Stopped at time : 90 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 100 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 30
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 110 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 31
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 32
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 120 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 21
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 33
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 34
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 130 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 21
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 35
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 36
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 140 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplexor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj multiplexor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplexor_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.multiplexor [multiplexor_default]
+Compiling architecture testbench of entity xil_defaultlib.multiplexor_tb
+Built simulation snapshot multiplexor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "multiplexor_tb_behav -key {Behavioral:sim_1:Functional:multiplexor_tb} -tclbatch {multiplexor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source multiplexor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'multiplexor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2583.988 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 25
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 26
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 27
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 28
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 29
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 30
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 19
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 31
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 32
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 21
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 33
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 34
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 21
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 35
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 36
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 50 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 23
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 37
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 38
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 60 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 23
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 39
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 40
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 70 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 41
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/multiplexor_tb.vhd" Line 42
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 20
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 22
+step
+Stopped at time : 80 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 25
+step
+step
+step
+step
+step
+step
+step
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'multiplexor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj multiplexor_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot multiplexor_tb_behav xil_defaultlib.multiplexor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2583.988 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/multiplexor.vhd" Line 18
+run 100 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top decoder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'decoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.decoder_tb in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2583.988 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'decoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.decoder_tb in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2583.988 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'decoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decoder_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder_tb
+Built simulation snapshot decoder_tb_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/xsim.dir/decoder_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim/xsim.dir/decoder_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 24 10:14:19 2023. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 24 10:14:19 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2583.988 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "decoder_tb_behav -key {Behavioral:sim_1:Functional:decoder_tb} -tclbatch {decoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source decoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'decoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 2583.988 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 18
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 20
+step
+Stopped at time : 0 fs : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 22
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 23
+step
+Stopped at time : 10 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 24
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 25
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 26
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 18
+step
+Stopped at time : 20 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 22
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 27
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 28
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 18
+step
+Stopped at time : 30 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 24
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 29
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sim_1/new/decoder_tb.vhd" Line 30
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 18
+step
+Stopped at time : 40 ns : File "D:/Janovec/LAB06/LAB06.srcs/sources_1/new/decoder.vhd" Line 26
+step
+step
+step
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2583.988 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'decoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decoder_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2583.988 ; gain = 0.000
+run all
+run 100 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run all
+run all
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 100 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'decoder_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decoder_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+"xelab -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 2d4bb956944c4d678454db3a913dd907 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decoder_tb_behav xil_defaultlib.decoder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Janovec/LAB06/LAB06.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "decoder_tb_behav -key {Behavioral:sim_1:Functional:decoder_tb} -tclbatch {decoder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source decoder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'decoder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2583.988 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 24 10:24:25 2023...

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 22 09:11:58 2023
+# Process ID: 3352
+# Current directory: D:/Janovec/LAB09
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5300 D:\Janovec\LAB09\LAB09.xpr
+# Log file: D:/Janovec/LAB09/vivado.log
+# Journal file: D:/Janovec/LAB09\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Janovec/LAB09/LAB09.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source fsm_compare.tcl
+close_sim
+launch_simulation
+source fsm_compare.tcl
+restart
+run 100 ns
+run all
+close_sim
+launch_simulation
+source fsm_compare.tcl
+restart
+run 100 ns
+save_wave_config {D:/Janovec/LAB09/fsm_compare_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/Janovec/LAB09/fsm_compare_behav.wcfg
+set_property xsim.view D:/Janovec/LAB09/fsm_compare_behav.wcfg [get_filesets sim_1]
+close_sim

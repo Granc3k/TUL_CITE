@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 17 10:10:13 2023
+# Process ID: 12080
+# Current directory: D:/Janovec/LAB05/LAB05.runs/synth_1
+# Command line: vivado.exe -log displays.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source displays.tcl
+# Log file: D:/Janovec/LAB05/LAB05.runs/synth_1/displays.vds
+# Journal file: D:/Janovec/LAB05/LAB05.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source displays.tcl -notrace

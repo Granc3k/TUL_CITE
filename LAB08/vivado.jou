@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 29 09:32:01 2023
+# Process ID: 4008
+# Current directory: d:/Janovec/LAB_08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5212 D:\Janovec\LAB_08\LAB_08.xpr
+# Log file: d:/Janovec/LAB_08/vivado.log
+# Journal file: d:/Janovec/LAB_08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Janovec/LAB_08/LAB_08.xpr
+launch_simulation
+source counter_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

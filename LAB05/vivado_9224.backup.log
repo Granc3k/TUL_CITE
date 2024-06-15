@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 24 08:55:53 2023
+# Process ID: 9224
+# Current directory: D:/Janovec/LAB05
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9392 D:\Janovec\LAB05\LAB05.xpr
+# Log file: D:/Janovec/LAB05/vivado.log
+# Journal file: D:/Janovec/LAB05\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Janovec/LAB05/LAB05.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/marti/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1022.004 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 24 09:07:16 2023...
